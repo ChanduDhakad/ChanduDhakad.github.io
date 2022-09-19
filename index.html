@@ -1,1 +1,374 @@
-Name:- Chandra Prakash Dhaker
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandra Prakash Dhaker | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/da14163475.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header section -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="./images/logo.png" alt="logo" class="logo" /> -->
+          <a
+            href=""
+            style="
+              color: white;
+              font-size: 24px;
+              font-weight: 900;
+              text-decoration: none;
+            "
+            ><span style="color: #ff004f">C</span>P</a
+          >
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#services">Skill</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Hi, my name is</p>
+          <h1><span>Chandra Prakash Dhaker </span></h1>
+          <!-- <h2>I build things for the Web.</h2> -->
+          <p>
+            <span id="backend">I'm a Java Backend Developer. </span> <br />
+
+            Currently, focusing on learning Java language and Data structure and
+            algorithms.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <!=============== about-section ============================-> -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/profilepic1.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 style="margin:20px 0px 30px 0px  ;" class="sub-title ">About Me</h1>
+            <p id="font-p">
+              A passionate JAVA Back-End Developer, Dedicated to developing
+              robust applications that interact with the Backend part of web
+              applications. Extensive expertise in website architecture, design,
+              and web design, and web API designs. Problem-solving mindset with
+              a goal to optimize my application for better stability and speed.
+              Love to work in a team.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span >1000+ </span><br />
+                  hourse of coding
+                </li>
+                <li>
+                  <span>300+</span><br />
+                  problems solved in DSA
+                </li>
+                <li>
+                  <span>01+</span><br />
+                  companies worked
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Shift Incharge Engineer</span><br />
+                  Kaycee Energy and infra Pvt. Ltd. (Aug 2021 - May 2022)
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Full Stack Web Developer(Full Time)</span><br />
+                  Masai School (April 2022 - Nov 2022)
+                </li>
+                <li>
+                  <span>B.Tech(Electrical - Engineering) </span><br />
+                  Govt.Engineering College Ajmer(Rajasthan) (July 2014 - July
+                  2018)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <!=============== Services-section ============================-> -->
+
+    <div id="Skills ">
+      <div class="container">
+        <h1 style="text-align: center;" class="sub-title">Skills</h1>
+        <p style="text-align: center;">My technologies</p>
+        <div class="services-list">
+          <!-- three service coloums -->
+
+          <div id="box-shadow">
+            <i class="fa-brands fa-java"></i>
+            <h2>Java</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Hibernet</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-book"></i>
+            <h2>Spring Boot</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>MySQL</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>JavaScript</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-github"></i>
+            <h2>GitHub</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <!=============== portfolio ============================-> -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 style="text-align: center;" class="sub-title">Projects</h1>
+        <p style="text-align: center;">My recent works</p>
+
+
+        <div class="work-list">
+          <div class="work">
+            <img id="india-mart" src="./images/IndiaMark.png" alt="" />
+            <div class="layer">
+              <h3>indiamart.com - clone</h3>
+              <p>
+                An e-commerce website buys and sells goods and services over an
+                electronic system.
+              </p>
+              <p style="display: flex; gap: 10px">
+                <a href="https://github.com/skypassboy/India-mart-clone"><i class="fa-brands fa-github"></i></a>
+                <a href="https://project1masai.netlify.app/"><i class="fa-sharp fa-solid fa-globe"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/styleCraze.png" alt="" />
+            <div class="layer">
+              <h3>Stylecraze.com - clone</h3>
+              <p>
+                An Indian startup that offers services in personal care,
+                wellness, fashion, and parental and pregnancy-related guidance.
+              </p>
+              <p style="display: flex; gap: 10px">
+                <a href="https://github.com/ChanduDhakad/misty-act-3451"><i class="fa-brands fa-github"></i></a>
+                <a href="https://masaiproject2.netlify.app/"><i class="fa-sharp fa-solid fa-globe"></i></a>
+              </p>
+
+
+            </div>
+            <!-- https://masaiproject2.netlify.app/ -->
+          </div>
+          <div class="work">
+            <img src="./images/fordApp.png" alt="" />
+            <div class="layer">
+              <h3>mini Food App</h3>
+              <p>
+                A mini-food app here only admin can add new food and sort them
+                on price make authorization login & signup
+              </p>
+              <p style="display: flex; gap: 10px">
+                <a href="https://github.e-commerce"><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-sharp fa-solid fa-globe"></i></a>
+              </p>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./images/newapp.png" alt="" />
+            <div class="layer">
+              <h3>new app</h3>
+              <p>
+                A new app here we can search and show current and treading news
+                of diffrent countries...
+              </p>
+              <p style="display: flex; gap: 10px">
+                <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+                <a href="https://cpnewapp.netlify.app"><i class="fa-sharp fa-solid fa-globe"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/weather app.png" alt="" />
+            <div class="layer">
+              <h3>weather app</h3>
+              <p>
+                A Weather app here we can search any city weather information
+              </p>
+              <p style="display: flex; gap: 10px">
+                <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+                <a href="https://indradeva.netlify.app/"><i class="fa-sharp fa-solid fa-globe"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <a
+          style="display: block; margin: auto"
+          href="https://github.com/ChanduDhakad"
+          target="_blank"
+          class="btn btn2"
+          >See More</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <!=============== Contact============================-> -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>cpdhakad123@gmail.com</p>
+        <p><i class="fa-sharp fa-solid fa-phone"></i> 9928521665</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/chandudhakad"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://github.com/ChanduDhakad"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <a href="./images/my-resume.pdf" download class="btn btn2"
+          >Downlod Resume</a
+        >
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required />
+          <input type="email" name="Email" placeholder="Your Email" required />
+          <textarea
+            name="Message"
+            id=""
+            rows="6"
+            placeholder="Your Message"
+          ></textarea>
+          <button
+            type="submit"
+            class="btn2 btn submit-btn"
+            style="background-color: transparent"
+          >
+            Submit
+          </button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+      <div class="copyright">
+        <p>
+          &copy; Made with
+          <i class="fa-solid fa-heart"></i> by Chandra Prakash Dhaker
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  let tablinks = document.getElementsByClassName("tab-links");
+  let tacontents = document.getElementsByClassName("tab-contents");
+
+  console.log(tablinks);
+
+  function opentab(tabname) {
+    for (tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+
+    for (tabcontent of tacontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+    event.target.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+  //side manu
+
+  var sidemanu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemanu.style.right = "0";
+  }
+
+  function closemenu() {
+    sidemanu.style.right = "-200";
+  }
+</script>
+
+<script>
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbwttxVzuYwOMZcjcHWfnwbvshOrwdYXKRrG4j15f0vg7QiX5Q_KOWhEv5CRu865CzEX/exec";
+  const form = document.forms["submit-to-google-sheet"];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) => {
+        msg.innerHTML = "Message sent Successfully";
+
+        setTimeout(function () {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+      })
+      .catch((error) => console.error("Error!", error.message));
+  });
+</script>
