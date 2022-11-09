@@ -564,7 +564,9 @@ display: block;
 @media only screen and (min-width:1260px) {
  
    nav{
-      width: 80%;
+
+      width: 100%;
+
       margin-left: -60px;
 
       display: flex;
@@ -578,6 +580,14 @@ display: block;
      
   
   }
+
+
+  #sidemenu {
+    border: 2px solid red;
+    margin-left: -39%;
+    padding-left: 59px;
+    margin-right: 306px;
+}
 }
 
 
