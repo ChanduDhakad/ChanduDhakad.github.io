@@ -583,7 +583,7 @@ display: block;
 
 
   #sidemenu {
-    border: 2px solid red;
+  
     margin-left: -39%;
     padding-left: 59px;
     margin-right: 306px;
@@ -947,6 +947,12 @@ nav ul li a::after{
       width: 40%;
       border-radius: 15px;
   }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 33px;
+    position: relative;
+}
   }
   
   .calendar{
