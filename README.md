@@ -1,27 +1,14 @@
-<div align="center">
-  <a href="https://shttps://chandudhakad.github.io" target="_blank">  
-    <img alt="Logo" src="https://chandudhakad.github.io/packages/images/logo.webp" width="50" />
-  </a>
-</div>
 <h1 align="center">
-  https://chandudhakad.github.io/ - v2
+  https://chandudhakad.github.io/
 </h1>
-<p align="center">
-  The second iteration of <a href="https://https://chandudhakad.github.io" target="_blank">https://chandudhakad.github.io</a> built with HTML, CSS, JavaScript and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
-</p>
-
-<!-- website version -->
-<!-- <p align="center">
-  Previous versions:
-\
-</p> -->
 
 <p align="center">
   :star: Star me on this repo — it helps!
 </p>
 
 <!-- hero screenshot -->
-![demo](https://user-images.githubusercontent.com/76105799/190883603-c888ebc3-9ef6-44d2-a8f1-0ed67bb5e4f5.png)
+![Portfolio](https://user-images.githubusercontent.com/97527158/201588429-b81ebd82-dd2c-4590-a9ea-ad9216ae387f.png)
+
 
 ## Features 📋
 ⚡️ Minimal Design\
@@ -53,7 +40,7 @@ Check this out, **[Live URL](https://https://chandudhakad.github.io/)**
 
 ## 🚨 Forking this repo (please read!)
 
-This repository is fully Open Source, Feel free to fork this, yes you heard it right - you can fork this repo without asking anyone. Before that please give me a star, fork it, and customize it as per your wish. If you face any difficulty you can connect with me <a href="cpdhakad123@gmail.com">mail.sanajitjana@gmail.com</a>.
+This repository is fully Open Source, Feel free to fork this, yes you heard it right - you can fork this repo without asking anyone. Before that please give me a star, fork it, and customize it as per your wish. If you face any difficulty you can connect with me <a href="cpdhakad123@gmail.com">cpdhakad123@gmail.com</a>.
 
 - Give a start (:star:) and then click on fork (:fork_and_knife:) to your account.
 - Clone your repo and modify the content of <b>index.html</b> according to your requirement.
