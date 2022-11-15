@@ -1054,3 +1054,31 @@ font-size: 60px;
 
 }
 
+
+.big-2,.mb-4{
+  text-align: center;
+
+  text-align: center;
+ /* margin-left: 40%; */
+ display: inline-block;
+ width: 100%;
+ margin: auto;
+ /* width: 100vh; */
+ width:100%;
+ margin: 0 auto;
+
+}  
+
+
+.github-images{
+  /* border: 3px solid red; */
+  margin: 30px auto;
+  text-align: center;
+} 
+#h12{
+  /* border: 2px solid red; */
+  margin: auto;
+}
+
+
+
