@@ -264,7 +264,10 @@
 
         <div class="work-list">
           <div class="work">
+            <!-- <div id="work-div"> -->
             <img id="india-mart" src="./images/indi.png" alt="" />
+            <!-- </div> -->
+
             <div class="layer">
               <h3>indiamart.com - clone</h3>
               <p>
@@ -273,10 +276,12 @@
                 <br />
                 Tech used: HTML,CSS,JAVASCRIPT.
               </p>
+
               <p style="display: flex; gap: 10px">
                 <a href="https://github.com/skypassboy/India-mart-clone"
                   ><i class="fa-brands fa-github"></i
                 ></a>
+
                 <a href="https://project1masai.netlify.app/"
                   ><i class="fa-sharp fa-solid fa-globe"></i
                 ></a>
@@ -363,21 +368,13 @@
             </div>
           </div>
         </div>
-
-        <a
-          style="display: block; margin: auto; margin-top: 10%"
-          href="https://github.com/ChanduDhakad"
-          target="_blank"
-          class="btn btn2"
-          >See More</a
-        >
       </div>
     </div>
 
 
-
-     <!--==================== Statistic ====================-->
-     <section class="skills section" id="statistic">
+    
+    <!--==================== Statistic ====================-->
+    <section class="skills section" id="statistic">
       <h2 class="section__title">Statistics</h2>
       <span class="section__subtitle">My efforts</span>
 
@@ -477,9 +474,7 @@
       </div>
     </section>
   </body>
-
 </html>
-
 
 <!-- // github add new  -->
 
@@ -487,24 +482,28 @@
   <!-- <h2 class="section__title">GitHub Calendar</h2>
   <span class="section__subtitle">Consistency is the key</span> -->
   <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
+    <div class="row justify-content-center mb-5 pb-3">
       <div id="h12" class="col-md-7 heading-section text-center ftco-animate">
         <h1 class="big big-2">Github</h1>
         <h2 class="mb-4">Github Calander</h2>
       </div>
+    </div>
+    <div class="github-images">
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=ChanduDhakad&show_icons=true&theme=default"
+        alt="ChanduDhakad-github-stats"
+      />
+      <img
+        src="https://github-readme-streak-stats.herokuapp.com/?user=ChanduDhakad&theme=default"
+        alt="ChanduDhakad-github-current-streak-stats"
+      />
+    </div>
+    <div class="calendar"></div>
   </div>
-  <div class="github-images">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=ChanduDhakad&show_icons=true&theme=default"
-      alt="ChanduDhakad-github-stats"
-    />
-    <img
-      src="https://github-readme-streak-stats.herokuapp.com/?user=ChanduDhakad&theme=default"
-      alt="ChanduDhakad-github-current-streak-stats"
-    />
-  </div>
-  <div class="calendar"></div>
 </section>
+
+
+
 
 <!-- ===============github stats==================== -->
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
@@ -515,29 +514,9 @@
   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 
-
-
-//
-
-
-
-
-
-
-
-
-
-
-
-<!-- Prepare a container for your calendar. -->
-<div class="calendar">
-  <!-- Loading stuff -->
-  Loading the data just for you.
-</div>
-
 <script>
-  GitHubCalendar(".calendar", "ChanduDhakad");
-  // or enable responsive functionality
+  // GitHubCalendar(".calendar", "ChanduDhakad");
+
   GitHubCalendar(".calendar", "ChanduDhakad", { responsive: true });
 </script>
 
