@@ -234,6 +234,7 @@ position: absolute;
      font-weight: 300;
      border-radius: 10px;
      transition:background 0.5s ,transform .05s;
+     text-align: center;
    }
    .services-list div i{
     font-size: 50px;
@@ -534,29 +535,29 @@ display: block;
 }
 
 #javas{
-  width: 250px;
+  width: 100px;
   margin: auto;
 }
 #springs{
-  width: 180px;
+  width: 100px;
   border-top: 10px;
   margin-left: 20px;
 }
 #sqls{
-  width: 200px;
+  width: 100px;
 }
 #htmls{
-  width: 170px;
+  width: 100px;
   margin-left: 30px;
   margin-top: 10px;
 }
 #csss{
-  width: 170px;
+  width: 100px;
   margin-left: 30px;
   margin-top: 10px;
 }
 #jss{
-  width: 300px;
+  width: 100px;
   margin-left: 0px;
 
 }
