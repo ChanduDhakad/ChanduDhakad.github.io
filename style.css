@@ -567,12 +567,18 @@ display: block;
 
 }
 
-
+#resume-buttom{
+  border: 2px solid rgb(81, 255, 0);
+  width: 1%;
+  height: 10px;
+}
 
 
 /* subo sa liya ha  */
 @media only screen and (min-width:1260px) {
  
+
+
    nav{
 
       width: 100%;
