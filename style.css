@@ -43,6 +43,9 @@ nav{
     background-color: #080808;
     /* border: 2px solid red; */
      top: 0px;
+     z-index: 20;
+      padding: 5px;
+      /* width: 100%; */
 
 }
 
@@ -621,7 +624,7 @@ background-size: cover;
 }
 
 
-  @media only screen and (min-width:310px) and (max-width:900px){
+  @media only screen and (min-width:280px) and (max-width:900px){
 
  
     #header {
@@ -1407,3 +1410,41 @@ flex-direction: row;
 
 }
 
+
+/* Style the Github stats section */
+.github-stats {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* Style the Github images */
+.github-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.github-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 10px 20px;
+  text-align: center;
+}
+
+.github-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767px) {
+  .github-image {
+    max-width: 100%;
+    margin: 0 0 20px;
+  }
+}
+.github-stats {
+  background-color:black;
+  padding: 50px 0;
+}
