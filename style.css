@@ -129,19 +129,18 @@ nav ul li a::after{
 
   .row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
   .about-col-1{
     flex-basis: 35%;
   }
-  .about-col-1 img{
-    width: 100%;
+  .about-col-1 img {
+    width: 89%;
     border-radius: 15px;
-  
- 
-  }
+    margin-top: 85px;
+}
   .about-col-2{
     flex-basis: 60%;
   }
@@ -1014,8 +1013,7 @@ nav ul li a::after{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem 3rem;
- 
+  gap: 1rem 3rem; 
   margin: 40px 0px;
 }
 
