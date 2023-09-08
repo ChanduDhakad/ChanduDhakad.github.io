@@ -293,6 +293,7 @@ position: absolute;
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
+    /* padding: 30px 0px; */
    
    }
 
@@ -611,13 +612,56 @@ display: block;
 .work  img{
 /* width: 500px; */
 /* style="width: 130%;" */
-/* border: 2px solid red; */
+/* border: 2px solid red;  */
 
 background-size: cover;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+#professional-experience{
+
+  margin: 70px 0px;
+}
+
+.card-body{
+  text-align: start;
+
+  margin-bottom: 25px;
+
+
+}
+.card-body  p{
+
+
+  margin: 10px 0px;
+  font-size: 20px;
+ 
+
+
+}
+
+.card-body  .namee{ 
+  margin: 4px 0px;
+  color: #ff004f; 
+  font-size: 30px;
+}
+.card-body  .date{ 
+
+/* //  color: #ff004f;  */
+  font-size: 25px;
+}
 
 
 }
@@ -971,7 +1015,63 @@ nav ul li a::after{
   display: inline-block;
  
 }
-  }
+.description{
+  text-align: center;
+}
+
+.card-body{
+  text-align: center;
+ 
+
+}
+
+
+
+
+
+
+
+#professional-experience{
+
+  margin: 70px 0px;
+}
+
+.card-body{
+  text-align: start;
+
+
+
+
+  margin-bottom: 25px;
+
+
+}
+.card-body  p{
+
+
+  margin: 10px 0px;
+  font-size: 20px;
+ 
+
+
+}
+
+.card-body  .namee{ 
+  margin: 4px 0px;
+  color: #ff004f; 
+  font-size: 30px;
+}
+.card-body  .date{ 
+
+/* //  color: #ff004f;  */
+  font-size: 25px;
+}
+
+
+
+
+
+}
   
 
   @media only screen and (min-width:310px) and (max-width:900px){
@@ -1236,7 +1336,44 @@ background-size: contain;
    
    
    }
-}
+
+
+  
+  
+  #professional-experience{
+  
+    margin: 50px 0px;
+  }
+  
+  .card-body{
+    text-align: start;
+    /* border: 2px solid rgb(0, 255, 174); */
+    margin-bottom: 35px;
+  
+  
+  }
+  .card-body  p{
+  
+  
+    margin: 10px 0px;
+    font-size: 15px;
+   text-align: start;
+  
+  
+  }
+  
+  .card-body  .namee{ 
+    margin: 4px 0px;
+    color: #ff004f; 
+    font-size: 20px;
+  }
+  .card-body  .date{ 
+  
+  /* //  color: #ff004f;  */
+    font-size: 20px;
+  }
+
+  }
 @media only screen and (min-width:901px) and (max-width:1159px){
   .work-list{
     display: flex;
@@ -1249,7 +1386,46 @@ background-size: contain;
     border: 2px solid rgb(0, 136, 255);
     
    }
-}
+
+  
+  
+ 
+
+  #professional-experience{
+  
+    margin: 50px 0px;
+  }
+  
+  .card-body{
+    text-align: start;
+    border: 2px solid rgb(0, 255, 174);
+    margin-bottom: 35px;
+  
+  
+  }
+  .card-body  p{
+  
+  
+    margin: 10px 0px;
+    font-size: 20px;
+   text-align: start;
+  
+  
+  }
+  
+  .card-body  .namee{ 
+    margin: 4px 0px;
+    color: #ff004f; 
+    font-size: 36px;
+  }
+  .card-body  .date{ 
+  
+  /* //  color: #ff004f;  */
+    font-size: 23px;
+  }
+
+
+  }
 
 
 
@@ -1283,6 +1459,7 @@ flex-direction: row;
     border-radius: 15px;
     height: 400px;
    padding: 30px 20px;
+ 
 
 
    }
@@ -1314,7 +1491,7 @@ flex-direction: row;
 
     margin: 0px 20px;
     /* margin-top: 23px; */
-    font-size: 22px;
+    font-size: 20px;
     /* width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
@@ -1338,13 +1515,13 @@ flex-direction: row;
 
    .layer h3{
     /* border: 2px solid red; */
-    font-size: 40px;
+    font-size: 34px;
     margin: 0px 40px ;
    }
    .layer h3+p{
     /* border: 2px solid red; */
     font-size: 20px;
-    line-height: 42px;
+    line-height: 25px;
    }
   
    .layer a{
@@ -1446,3 +1623,4 @@ flex-direction: row;
   background-color:black;
   padding: 50px 0;
 }
+
